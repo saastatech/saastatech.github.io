@@ -49,9 +49,6 @@ jobs:
     # We'll run Ubuntu for performance instead of Mac or Windows.
     runs-on: ubuntu-latest
     
-    theme:
-    theme: minima
-    
     steps:
       # We'll need to check out the repository so that we can edit the README.
       - name: Checkout
